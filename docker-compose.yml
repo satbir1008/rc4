@@ -1,0 +1,9 @@
+name: HRMLCompose
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: html-app
+    ports:
+      - "8070:80"
